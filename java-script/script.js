@@ -21,5 +21,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function viewDetails(id) {
     // Redirect or pass data to the Detailed Information Page
-    window.location.href = `details.html?id=${id}`;
+    window.location.href = `index2.html?id=${id}`;
 }
