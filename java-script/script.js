@@ -1,7 +1,7 @@
 //Ensures that the JavaScript code runs only after the HTML document is fully loaded
 document.addEventListener("DOMContentLoaded", () => {
     const dataContainer = document.getElementById("data-container");
-    //
+    
     fetch("https://jsonplaceholder.typicode.com/posts")
         .then(response => response.json())
         .then(data => {
